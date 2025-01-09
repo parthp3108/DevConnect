@@ -1,0 +1,10 @@
+{
+  "scripts": {
+  "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd DevConnect_be && npm run dev",
+    "client": "cd DevConnect_fe && npm run dev"
+  },
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
